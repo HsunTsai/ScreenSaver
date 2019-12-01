@@ -35,7 +35,7 @@ public class MyDreamService extends DreamService {
     public void onAttachedToWindow() {
         super.onAttachedToWindow();
         setFullscreen(true); // 是否全螢幕?
-//        setInteractive(true); // 觸屏不要退出?
+        setInteractive(true); // 觸屏不要退出?
         setScreenBright(false); // 是否高亮度?
         setContentView(R.layout.dream_page);
 
