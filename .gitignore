@@ -1,6 +1,9 @@
 # Built application files
-*.apk
+#*.apk
 *.ap_
+
+# Release Folder
+app/release/
 
 # Files for the ART/Dalvik VM
 *.dex
